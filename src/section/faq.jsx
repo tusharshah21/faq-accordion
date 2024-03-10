@@ -42,7 +42,7 @@ const FaqSection = () => {
             <img src={mobilebg} alt="desktopbg" className="mt-[-4rem] w-full lg:hidden block" />
         </div>
 
-      <div className="font-body absolute h-screen w-screen text-center mx-auto flex justify-center items-center">
+      <div className="font-Wsans absolute h-screen w-screen text-center mx-auto flex justify-center items-center">
         <div className="text-[color:hsl(292,_42%,_14%)] shadow-2xl cardo md:w-[39%] w-[89%] bg-white rounded-[10px] px-6 lg:px-12 pt-8 lg:pt-10 lg:pb-4">
           <h2 className="text-4xl lg:text-5xl font-bold lg:mb-2 items-center text-left flex">
                 <img src={star} alt="star" className="mr-6 w-[10%] lg:w-[8%]" />
@@ -53,7 +53,7 @@ const FaqSection = () => {
               <div key={index} className="py-6">
                 <div className="flex justify-between items-center">
                   <button
-                    className="leading-5 text-[17px] font-semibold text-left"
+                    className="border-0	leading-5 text-[17px] font-semibold text-left"
                     onClick={() => toggleAccordion(index)}
                   >
                     {faq.question}
@@ -69,7 +69,7 @@ const FaqSection = () => {
                         height="31"
                         fill="none"
                         viewBox="0 0 30 31"
-                        className="ml-8 lg:ml-0"
+                        className="border-0	ml-8 lg:ml-0"
                       >
                         <path
                           fill="#301534"
@@ -83,7 +83,7 @@ const FaqSection = () => {
                         height="31"
                         fill="none"
                         viewBox="0 0 30 31"
-                        className="ml-8 lg:ml-0"
+                        className="border-0	ml-8 lg:ml-0"
                       >
                         <path
                           fill="#AD28EB"

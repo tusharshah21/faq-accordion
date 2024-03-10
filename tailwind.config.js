@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        body:['Work Sans']
+        Wsans:['Work Sans']
       }
     },
   },
